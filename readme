@@ -1,0 +1,14 @@
+Steps to run:
+
+1. update your packages in RStudio
+  1. install.packages(c("boot", "foreign", "mgcv", "nlme"))
+1. Install `tidyverse` and `hmisc` R packages to your local machine.
+  1. run `install.packages("tidyverse")`
+  1. run `install.packages("Hmisc")`
+1. Import the libraries into your currently running R environment.
+  1. source("libraries.R")
+1. Make sure you have a Microsoft Access Driver installed on your system. 
+  1. For Mac, download mdbtools using `brew install mdbtools`
+1. Download the external files from the city's website to get the most recent copy of the mdb databse export.
+  1. `source("data_download.R")`
+1. (Eventually) run the data_prep.R file
