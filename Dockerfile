@@ -1,6 +1,6 @@
 FROM rocker/rstudio
 
-MKDIR /home/rstudio/github
+RUN mkdir /home/rstudio/github
 
 COPY * /home/rstudio/github
 
